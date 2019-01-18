@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-image: url("images/backgroundimage.jpeg");
+}
+
+.header {
+    color: white;
+    padding: 20px;
+    background-color: #1C2833;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.info {
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 5px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h5 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.classNav {
+    float: left;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* #home:target, #portfolio:target, #contact:target {
+    border-bottom-color: 5px solid orangered;
+} */
+
+.nav a:hover {
+    border-bottom: 5px solid orangered;
+}
+
+.about-content {
+    width: 500px;
+    height: 300px;
+    padding-top: 10px;
+    position: relative;
+    top: 150px;
+    left: 220px;
+    background-color: orangered; opacity: 0.75;
+}
+
+.about-content h1 {
+    color: white;
+    margin: 30px;
+}
+
+#homePageContent {
+    color: white;
+    width: 200px;
+    margin: 30px;
+}
+
+.body2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.portfolio-content {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.portfolio-content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.portfolio {
+    float: left;
+    width: 30%;
+    margin: auto;
+    /* margin-left: 30px; */
+}
+
+img {
+    display: block;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
+.portfolio-description {
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin: auto;
+    padding: 10px; 
+    position: relative;
+    top: -50px;
+    background: orangered;
+}
+
+.body3 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    /* background-color: orangered; */
+}
+
+.contact-form h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C2833;
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+
+}
+
+.contact-form {
+    height: 600px;
+    width: 50%;
+    margin: 0 auto;    
+    position: relative;
+    top: 50px;
+    background-color: #cccccc;
+}
+
+#contact-name, #contact-email, #contact-message {
+    display: block;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:white;
+}
+
+label {
+    display: block;
+    color: #1C2833;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#contact-name, #contact-email {
+    height: 7%;
+}
+
+#contact-message {
+    resize: none;
+    height: 200px;
+    padding: 12px 20px;
+}
+
+button {
+    font-size: 15px;
+    color: whitesmoke;
+    height: 40px;
+    width: 30%;    
+    position: absolute;
+    left: 33px;
+    bottom: 20px; 
+    border-radius: 5px;
+    background: orangered;
+}
