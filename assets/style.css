@@ -41,10 +41,10 @@ h5 {
 }
 
 .classNav {
-    float: left;
+    float: right;
     position: absolute;
-    top: 50px;
-    right: 200px;
+    top: 60px;
+    right: 170px;
 }
 
 #home, #portfolio, #contact {
