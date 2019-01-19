@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.body1 {
+body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     background-image: url("images/backgroundimage.jpeg");
@@ -88,11 +88,6 @@ h5 {
     text-decoration: none;
 }
 
-.body2 {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-}
-
 .portfolio-content {
     width: 80%;
     margin: 50px auto;
@@ -135,12 +130,6 @@ img {
     position: relative;
     top: -50px;
     background: orangered;
-}
-
-.body3 {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    /* background-color: orangered; */
 }
 
 .contact-form h3 {
