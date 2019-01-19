@@ -47,23 +47,24 @@ h5 {
     right: 200px;
 }
 
-a {
+#home, #portfolio, #contact {
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
-/* #home:target, #portfolio:target, #contact:target {
+#home:target {
     border-bottom-color: 5px solid orangered;
-} */
+}
 
 .nav a:hover {
     border-bottom: 5px solid orangered;
 }
 
 .about-content {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 200px;
     padding-top: 10px;
     position: relative;
     top: 150px;
@@ -78,8 +79,13 @@ a {
 
 #homePageContent {
     color: white;
-    width: 200px;
+    width: 500px;
     margin: 30px;
+}
+
+#contactLink {
+    color: white;
+    text-decoration: none;
 }
 
 .body2 {
@@ -101,9 +107,17 @@ a {
 .portfolio {
     float: left;
     width: 30%;
-    margin: auto;
-    /* margin-left: 30px; */
+    /* margin: auto; */
+    margin-left: 30px;
+    /* position: relative;
+    -webkit-animation: infinite;
+    animation: mymove 5s infinite; */
 }
+
+/* @keyframes mymove {
+    from {left: -20px;}
+    to {left: 80px;}
+  } */
 
 img {
     display: block;
